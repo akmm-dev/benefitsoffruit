@@ -1,5 +1,6 @@
 function search() {
-    var fruit = document.getElementById('t_search').value;  
+    var fruits = document.getElementById('t_search').value;  
+    var fruit = fruits.trim();
     if (fruit == '') {
         // alert("please enter a fruit name");
     }else{
